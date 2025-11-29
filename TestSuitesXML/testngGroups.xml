@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="Error"/>
+</run>
+</groups>
+  <test thread-count="5" parallel="tests" name="SubmitTest">
+    <classes>
+      <class name="VCB_SELENIUM.SELENIUMFRAMEWORKDESIGN.StandaloneETETEST"/>
+     </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="ErrorTest">
+    <classes>
+     <class name="VCB_SELENIUM.SELENIUMFRAMEWORKDESIGN.ErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

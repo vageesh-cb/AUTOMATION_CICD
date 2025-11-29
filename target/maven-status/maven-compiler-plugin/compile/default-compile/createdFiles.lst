@@ -1,0 +1,8 @@
+Resources\ExtentReportsNG.class
+PageObjects\LoginPage.class
+PageObjects\OrderConfirmationPage.class
+PageObjects\ProductCatalogPage.class
+AbstractComponents\AbstractComponent.class
+PageObjects\OrderPage.class
+PageObjects\CartPage.class
+PageObjects\CheckOutPage.class
