@@ -38,7 +38,7 @@ public class BaseClass {
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "//src//main//java//Resources//GlobalData.properties");
 		property.load(fis);
-
+ // VCB
 		// String browserName= System.getProperty("browser")!=null?
 		// System.getProperty("browser"):property.getProperty("browser");
 		String browserName = property.getProperty("browser");
